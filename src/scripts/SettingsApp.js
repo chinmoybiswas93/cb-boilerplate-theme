@@ -5,9 +5,6 @@ import ExampleReactComponent from "./ExampleReactComponent";
 const SettingsApp = () => {
   return (
     <div>
-      <h1>Boilerplate Settings</h1>
-      <p>Welcome to the settings page!</p>
-      <hr />
       <ExampleReactComponent />
     </div>
   );

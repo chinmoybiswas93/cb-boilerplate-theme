@@ -1,5 +1,5 @@
 {
-  "name": "brads-boilerplate-theme",
+  "name": "cb-boilerplate-theme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "preview": "npm-run-all --parallel sync start",
     "sync": "browser-sync start -p 'wp-test.local' --files '**/*.php' 'build/*.js' 'build/*.css'",
     "build": "wp-scripts build src/index.js src/settings.js",
-    "start": "wp-scripts start",
+    "start": "wp-scripts start src/index.js src/settings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

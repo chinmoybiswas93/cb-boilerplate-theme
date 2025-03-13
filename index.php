@@ -3,7 +3,7 @@
 get_header(); ?>
 
 <!-- example react component -->
-<div id="render-react-example-here"></div>
+<div id="cb-app-root"></div>
 <!-- end example react component -->
 
 <?php if (have_posts()) {

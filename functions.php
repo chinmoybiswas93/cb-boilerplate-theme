@@ -32,7 +32,7 @@ function boilerplate_add_admin_menu()
 function boilerplate_settings_page()
 {
   ?>
-  <div id="app-root-settings"></div>
+  <div id="cb-app-root-settings"></div>
   <?php
 }
 
